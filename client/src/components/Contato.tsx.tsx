@@ -1,6 +1,6 @@
 
 export const Contato = () => {
     return (
-        <div>Contato</div>
+        <div id="contato">Contato</div>
     );
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import { Contato } from "../components/Contato.tsx";
 import { Home } from "../components/Home";
 import { Projetos } from "../components/Projetos.tsx";

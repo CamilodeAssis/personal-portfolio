@@ -1,37 +1,30 @@
 import back from '../assets/images/back.png';
 import front from '../assets/images/front.png';
 import soft from '../assets/images/soft.png';
+import { backSkill, frontSkill, softSkill } from '../data/data'
+import { SkillCard } from '../components/SkillCard';
+import { SkillType } from '../types/test';
+
 
 
 export const Skills = () => {
-    return (
-        <div className="min-h-[680px] max-h-[100vh] w-screen bg-gray-400 flex flex-col justify-center items-center ">
-            <div>
-                <h1 className="text-2xl text-green font-bold">Skiils</h1>
-            </div>
-            <div className='flex justify-between gap-1'>
-                <div>
-                    <div className="flex justify-center items-center bg-green rounded p-1 w-96">
-                    <img src={back} className="w-9 h-9" alt="Backend" />
-                    <span className='font-bold'>Backend Skills</span> 
-                    
-                    </div>
-                </div>
-                <div>
-                    <div className="flex justify-center items-center bg-green rounded p-1 w-96">
-                    <img src={front} className="w-9 h-9" alt="Backend" />
-                    <span className='font-bold'>Frontend Skills</span> 
-                    </div>
-                </div>
-                <div>
-                    <div className="flex justify-center items-center bg-green rounded p-1 w-96">
-                    <img src={soft} className="w-9 h-9" alt="Backend" />
-                    <span className='font-bold'>Soft Skills</span> 
-                    </div>
-                </div>
 
+
+    return (
+        <div id='skills' className="min-h-[680px] h-full sm:h-screen w-full bg-gray-400 flex flex-col justify-center items-center ">
+            <div>
+                <h1 className="text-3xl text-green font-bold">Skills</h1>
+            </div>
+            <div className='flex flex-col sm:flex-row justify-between gap-3 mt-4'>
+
+                <SkillCard icon={back} title={"Backend Skills"} data={backSkill} />
+                <SkillCard icon={front} title={"Frontend Skills"} data={frontSkill} />
+                <SkillCard icon={soft} title={"Soft Skills"} data={softSkill} />
 
             </div>
         </div>
+
+
+
     );
 }

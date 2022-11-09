@@ -9,6 +9,15 @@ module.exports = {
       'sans': ['Inter', 'sans-serif', ] 
     },
     extend: {
+      animation:{
+        "anim" : 'all 0.3s cubic-bezier(.25,.8,.25,1)'
+      },
+      keyframes:{
+        anim: {
+          "0%": { width: '0%' },
+          "100%": {width: '100%'},
+        }
+      },
       backgroundImage: {
         'eu': "url('./src/assets/images/eu.jpeg')",
         'eureal': "url('./src/assets/images/eureal.jpg')",

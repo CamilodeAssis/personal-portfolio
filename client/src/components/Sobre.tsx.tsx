@@ -2,7 +2,7 @@
 
 export const Sobre = () => {
     return (
-        <div id="sobre" className="bg-gray-400 min-h-[680px] flex flex-col justify-center items-center p-10 w-screen">
+        <div id="sobre" className="bg-gray-700 min-h-[680px] h-full sm:h-screen flex flex-col justify-center items-center p-10 w-full pt-20">
             <div className="flex flex-col justify-center items-center mb-7">
                 <div>
                     

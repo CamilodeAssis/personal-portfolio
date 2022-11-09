@@ -1,16 +1,21 @@
 import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { MenuHeader } from "./components/Menu";
+import { Projetos } from "./components/Projetos";
+import { Skills } from "./components/Skills.tsx";
 import { Sobre } from "./components/Sobre.tsx";
-import { GlobalRoutes } from "./routes/GlobalRoutes";
+
 
 export const App = () => {
   return (
-    <div>
+      <>
       <MenuHeader />
-      <GlobalRoutes/>
+      <Home />
+      <Sobre />
+      <Skills />
+      <Projetos />
       <Footer />
-    </div>
+      </>
 
   );
 }

@@ -23,19 +23,15 @@ export const SkillCard = ({ icon, title, data, }: Props) => {
 
         <div>
             <Menu>
-                <Menu.Button className="flex justify-center gap-2 items-center bg-green rounded p-1 w-[240px] ">
+                <Menu.Button className="flex justify-center gap-2 items-center bg-green rounded p-1 w-72 ">
                     <img src={icon} className="w-9 h-9 " alt="Backend" />
                     <span className='font-bold text-xl '>{title}</span>
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path></svg>
                 </Menu.Button>
 
                 <Menu.Items className='border border-green rounded h-auto mt-3'>
-                    <div className='p-2'>
-
-
-
+                    <div className='p-2 text-lg'>
                         <div>
-
                             {data.length > 0 && data.map((info, index) => info.type === "back" && (
                                 <div>
                                     <div >

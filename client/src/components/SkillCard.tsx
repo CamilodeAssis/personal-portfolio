@@ -33,7 +33,7 @@ export const SkillCard = ({ icon, title, data, }: Props) => {
                     <div className='p-2 text-lg'>
                         <div>
                             {data.length > 0 && data.map((info, index) => info.type === "back" && (
-                                <div>
+                                <div key={index}>
                                     <div >
                                         <div className='flex justify-between items-center text-white '>
                                             <div> <>{info.name} </> </div>
@@ -46,7 +46,7 @@ export const SkillCard = ({ icon, title, data, }: Props) => {
                                 </div>
                             ))}
                             {data.length > 0 && data.map((info, index) => info.type === "front" && (
-                                <div>
+                                <div key={index}>
                                     <div >
                                         <div className='flex justify-between items-center text-white '>
                                             <div> <>{info.name} </> </div>
@@ -59,7 +59,7 @@ export const SkillCard = ({ icon, title, data, }: Props) => {
                                 </div>
                             ))}
                             {data.length > 0 && data.map((info, index) => info.type === "soft" && (
-                                <div>
+                                <div key={index}>
                                     <div >
                                         <div className='flex justify-between items-center text-white '>
                                             <div> <>{info.name} </> </div>

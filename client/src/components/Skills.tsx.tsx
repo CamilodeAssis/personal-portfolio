@@ -1,9 +1,9 @@
-import back from '../assets/images/back.png';
-import front from '../assets/images/front.png';
-import soft from '../assets/images/soft.png';
 import { backSkill, frontSkill, softSkill } from '../data/data'
 import { SkillCard } from '../components/SkillCard';
 import { SkillType } from '../types/test';
+import back from '../assets/images/back.png';
+import front from '../assets/images/front.png';
+import soft from '../assets/images/soft.png';
 
 
 

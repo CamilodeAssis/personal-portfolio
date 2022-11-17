@@ -9,6 +9,7 @@ module.exports = {
       'sans': ['Inter', 'sans-serif', ] 
     },
     extend: {
+      
       animation:{
         "anim" : 'all 0.3s cubic-bezier(.25,.8,.25,1)'
       },

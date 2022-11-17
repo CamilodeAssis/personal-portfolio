@@ -11,11 +11,11 @@ export const Skills = () => {
 
 
     return (
-        <div id='skills' className="min-h-[680px] h-full sm:h-screen w-full bg-gray-400 flex  justify-center flex-col  items-center p-10 border-b ">
+        <div id='skills' className="min-h-[680px] h-full sm:h-screen w-full bg-gray-400 flex  justify-center flex-col  items-center p-10 ">
             <div>
                 <h1 className="text-3xl text-green font-bold">Skills & Techs</h1>
             </div>
-            <div className='flex justify-between items-center gap-3 my-12'>
+            <div className='flex justify-between items-center gap-1 my-12'>
                 <svg viewBox="0 0 128 128" width={"40px"} height={"40px"} >
                     <path fill="white" d="M19.569 27l8.087 89.919 36.289 9.682 36.39-9.499L108.431 27H19.569zM91.61 47.471l-.507 5.834L90.88 56H48.311l1.017 12h40.54l-.271 2.231-2.615 28.909-.192 1.69L64 106.964v-.005l-.027.012-22.777-5.916L39.65 84h11.168l.791 8.46 12.385 3.139.006-.234v.012l12.412-2.649L77.708 79H39.153l-2.734-30.836L36.152 45h55.724l-.266 2.471zM27.956 1.627h5.622v5.556h5.144V1.627h5.623v16.822h-5.623v-5.633h-5.143v5.633h-5.623V1.627zm23.782 5.579h-4.95V1.627h15.525v5.579h-4.952v11.243h-5.623V7.206zm13.039-5.579h5.862l3.607 5.911 3.603-5.911h5.865v16.822h-5.601v-8.338l-3.867 5.981h-.098l-3.87-5.981v8.338h-5.502V1.627zm21.736 0h5.624v11.262h7.907v5.561H86.513V1.627z"></path>
                 </svg>
@@ -38,7 +38,7 @@ export const Skills = () => {
                     <path fill="white" d="M2 63.91v62.5h125v-125H2zm100.73-5a15.56 15.56 0 017.82 4.5 20.58 20.58 0 013 4c0 .16-5.4 3.81-8.69 5.85-.12.08-.6-.44-1.13-1.23a7.09 7.09 0 00-5.87-3.53c-3.79-.26-6.23 1.73-6.21 5a4.58 4.58 0 00.54 2.34c.83 1.73 2.38 2.76 7.24 4.86 8.95 3.85 12.78 6.39 15.16 10 2.66 4 3.25 10.46 1.45 15.24-2 5.2-6.9 8.73-13.83 9.9a38.32 38.32 0 01-9.52-.1A23 23 0 0180 109.19c-1.15-1.27-3.39-4.58-3.25-4.82a9.34 9.34 0 011.15-.73l4.6-2.64 3.59-2.08.75 1.11a16.78 16.78 0 004.74 4.54c4 2.1 9.46 1.81 12.16-.62a5.43 5.43 0 00.69-6.92c-1-1.39-3-2.56-8.59-5-6.45-2.78-9.23-4.5-11.77-7.24a16.48 16.48 0 01-3.43-6.25 25 25 0 01-.22-8c1.33-6.23 6-10.58 12.82-11.87a31.66 31.66 0 019.49.26zm-29.34 5.24v5.12H57.16v46.23H45.65V69.26H29.38v-5a49.19 49.19 0 01.14-5.16c.06-.08 10-.12 22-.1h21.81z"></path>
                 </svg>
             </div>
-            <div className='flex flex-col sm:flex-row justify-between gap-3 mt-4'>
+            <div className='flex flex-col lg:flex-row justify-between gap-3 mt-4'>
                 <SkillCard icon={back} title={"Backend Skills"} data={backSkill} />
                 <SkillCard icon={front} title={"Frontend Skills"} data={frontSkill} />
                 <SkillCard icon={soft} title={"Soft Skills"} data={softSkill} />

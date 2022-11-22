@@ -9,7 +9,7 @@ export const Home = () => {
    
 
     return (
-        <div id='home' className="bg-white dark:bg-gray-400  h-full sm:h-screen flex flex-col justify-center items-center pt-20 sm:pt-0 p-10 w-screen sm:w-screen ">
+        <div id='home' className="bg-white dark:bg-gray-400  h-full sm:h-screen flex flex-col justify-center items-center pt-20 sm:pt-0 p-10 w-full">
             <div className='flex justify-between items-center gap-1 '>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" className='w-8 h-8 sm:w-10 sm:h-10' />
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" className='w-8 h-8 sm:w-10 sm:h-10' />

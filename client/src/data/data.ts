@@ -97,6 +97,7 @@ export const dataProjetos = [
         src: bateria,
         type: 'Javascript',
         icons: [html, css, javascript]
+        
 
     },
     {
@@ -136,7 +137,8 @@ export const dataProjetos = [
         description: 'Calculadora IMC desenvolvida em ReactJs + Typescript',
         src: imc,
         type: 'ReactJs',
-        icons: [react, typescript, tailwind] 
+        icons: [react, typescript, tailwind],
+        link: 'https://github.com/CamilodeAssis/calculadora-imc-react'
 
     },
     {
@@ -188,5 +190,17 @@ export const dataQuali = [
         escola: "Estácio",
         data: "Cursando (2023)",
         icon: [javascript, html, css],
+    },
+    {
+        name: "Língua polonesa e matérias especializadas",
+        escola: "Miedzynarodowe Centrum Ksztalcenia Politechniki",
+        data: "2018",
+        
+    },
+    {
+        name: "Web Design",
+        escola: "Virtual Myllênnyum Informática",
+        data: "2012",
+        
     }
 ]

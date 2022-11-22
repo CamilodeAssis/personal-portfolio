@@ -26,12 +26,15 @@ export const MenuHeader = () => {
     console.log(theme);
     return (
         <div className=' flex fixed justify-between  items-center  sm:h-auto h-16 sm:pb-3 sm:pt-3 bg-gray-700 w-full ' >
+
+            <Link  to="home" smooth={true} offset={-200} duration={500}>
             <div className=' sm:ml-7 ml-2 flex flex-col justify-center items-center '>
-                <div className=' bg-green  rounded text-black p-1 w-18 flex items-center justify-center text-base font-bold sm:text-base sm:font-bold flex-1 '>
+                <div className='cursor-pointer bg-green  rounded text-black p-1 w-18 flex items-center justify-center text-base font-bold sm:text-base sm:font-bold flex-1 '>
                     Camilo
                 </div>
-                <span className='hidden md:flex text-white text-xs sm:text-base mt-1 text-center'>Desenvolvedor Full Stack</span>
+                <span className='hidden md:flex text-white text-xs sm:text-base mt-1 text-center cursor-pointer'>Desenvolvedor Full Stack</span>
             </div>
+            </Link>
             <div className='hidden sm:flex justify-center items-center text-white mr-7 cursor-pointer'>
                 <Switch
                     onClick={handleThemeChange}

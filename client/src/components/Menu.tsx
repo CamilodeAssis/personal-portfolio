@@ -27,10 +27,10 @@ export const MenuHeader = () => {
     return (
         <div className=' flex fixed justify-between  items-center  sm:h-auto h-16 sm:pb-3 sm:pt-3 bg-gray-700 w-full ' >
             <div className=' sm:ml-7 ml-2 flex flex-col justify-center items-center '>
-                <div className=' bg-green  rounded text-black p-1 w-18 flex items-center justify-center text-xs font-bold sm:text-base sm:font-bold flex-1 '>
+                <div className=' bg-green  rounded text-black p-1 w-18 flex items-center justify-center text-base font-bold sm:text-base sm:font-bold flex-1 '>
                     Camilo
                 </div>
-                <span className='text-white text-xs sm:text-base mt-1'>Desenvolvedor Full Stack</span>
+                <span className='hidden md:flex text-white text-xs sm:text-base mt-1 text-center'>Desenvolvedor Full Stack</span>
             </div>
             <div className='hidden sm:flex justify-center items-center text-white mr-7 cursor-pointer'>
                 <Switch
@@ -48,6 +48,7 @@ export const MenuHeader = () => {
                 <Link className='ml-6 hover:text-green active:text-green ' to="home" smooth={true} offset={-200} duration={500} >Home</Link>
                 <Link className='ml-6 hover:text-green active:text-green ' to="sobre" smooth={true} offset={0} duration={500}>Sobre</Link>
                 <Link className='ml-6 hover:text-green active:text-green ' to='skills' smooth={true} offset={0} duration={500}>Skills</Link>
+                <Link className='ml-6 hover:text-green active:text-green ' to='quali' smooth={true} offset={0} duration={500}>Qualificações</Link>
                 <Link className='ml-6 hover:text-green active:text-green ' to='projetos' smooth={true} offset={0} duration={500}>Projetos</Link>
                 <Link className='ml-6 hover:text-green active:text-green ' to='contato' smooth={true} offset={0} duration={500}>Contato</Link>
             </div>
@@ -76,6 +77,7 @@ export const MenuHeader = () => {
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="home" smooth={true} offset={-200} duration={500}>Home</Link>
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="sobre" smooth={true} offset={0} duration={500}>Sobre</Link>
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="skills" smooth={true} offset={0} duration={500}>Skills</Link>
+                        <Link className='hover:bg-black hover:text-white  block w-full text-center' to="quali" smooth={true} offset={0} duration={500}>Qualificações</Link>
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="projetos" smooth={true} offset={0} duration={500}>Projetos</Link>
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="contato" smooth={true} offset={0} duration={500}>Contato</Link>
                     </div>

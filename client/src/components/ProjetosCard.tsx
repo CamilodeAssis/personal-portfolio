@@ -36,7 +36,7 @@ export const ProjetoCard = () => {
         if (carousel.current?.offsetWidth) {
             newMargin = (currentSlide * 608).toString();
             maxMargin = (currentSlide * 100).toString();
-            if (carousel.current.style.marginLeft > `${currentSlide}` ) {
+            if (carousel.current.style.marginLeft > `{currentSlide}` ) {
                 carousel.current.style.marginLeft = `-${maxMargin}px`;
             } else {
                 carousel.current.style.marginLeft = `-${newMargin}px`;
@@ -49,12 +49,12 @@ export const ProjetoCard = () => {
     return (
         <div >
             
-            <div className=' w-[75vw] sm:w-[1208px] overflow-hidden'>
+            <div className=' w-[75vw] xl:w-[1208px] overflow-hidden'>
                 <div id='slider' className={` flex sm:h-full h-auto transition-all duration-300 w-[100px] sm:w-[${600 * totalSlides}px] `} ref={carousel} >
                     {projetos && projetos.map((item, index) => {
                         return (
 
-                            <div key={index} className="flex flex-col sm:w-[600px]  w-[200px] flex-none  bg-gray-400 border dark:border-green rounded mr-2">
+                            <div key={index} className="flex flex-col md:w-[600px]  w-[200px] flex-none  bg-gray-400 border dark:border-green rounded mr-2">
 
                                 <div className=''>
                                     <img className="w-full h-full object-cover rounded" src={item.src} alt="" />

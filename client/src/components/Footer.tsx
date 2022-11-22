@@ -7,7 +7,7 @@ import gith from '../assets/images/github.png';
 
 export const Footer = () => {
     return (
-        <div id='footer' className='w-full place-self-end '>
+        <div id='footer' className='w-full  place-self-end '>
             <div className='flex flex-col sm:flex-row  justify-between items-center bg-green p-1 sm:py-3'>
                 <div className='flex  justify-center items-center sm:ml-7 mb-2 sm:mb-0 text-xs sm:text-base  font-bold '>
                     Me encontre em todas as redes sociais:
@@ -21,7 +21,7 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className='bg-black h-auto flex flex-col sm:flex-row justify-center items-center  p-3 sm:p-5'>
+            <div className='dark:bg-black  bg-gray-400 h-auto flex flex-col sm:flex-row justify-center items-center  p-3 sm:p-5'>
                 <div className='flex flex-col justify-center items-center '>
                     <div className='bg-green font-bold  text-center mb-1 rounded sm:text-xl w-auto sm:p-1'>Camilo</div>
                     <span className='text-white text-xs sm:text-base text-center'>Desenvolvedor Full Stack</span>

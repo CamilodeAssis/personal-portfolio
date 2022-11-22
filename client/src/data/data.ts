@@ -156,3 +156,37 @@ export const dataProjetos = [
 
     },
 ]
+
+
+export const dataQuali = [
+    {
+        name: "HTML & CSS",
+        escola: "B7Web",
+        data: "2022",
+        icon: [html, css],
+    },
+    {
+        name: "Javascript",
+        escola: "B7Web",
+        data: "2022",
+        icon: javascript,
+    },
+    {
+        name: "Typescript",
+        escola: "B7Web",
+        data: "2022",
+        icon: typescript,
+    },
+    {
+        name: "ReactJs",
+        escola: "B7Web",
+        data: "2022",
+        icon: react,
+    },
+    {
+        name: "Análise e Desenvolvimento de Sistemas",
+        escola: "Estácio",
+        data: "Cursando (2023)",
+        icon: [javascript, html, css],
+    }
+]

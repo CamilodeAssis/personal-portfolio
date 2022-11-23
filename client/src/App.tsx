@@ -5,7 +5,7 @@ import { Projetos } from "./components/Projetos";
 import { Skills } from "./components/Skills.tsx";
 import { Sobre } from "./components/Sobre.tsx";
 import { Quali } from "./components/Qualificaçoes"
-
+import { ProjetosTable } from './components/ProjetosTable'
 
 export const App = () => {
   return (
@@ -16,6 +16,7 @@ export const App = () => {
       <Skills />
       <Quali />
       <Projetos />
+      
       <Footer />
       </>
 

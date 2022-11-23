@@ -6,6 +6,6 @@ export type ProjetosType = {
     src: string;
     type: string;
     icons: Array<string>;
-    link?: string;
+    link: string;
 
 }

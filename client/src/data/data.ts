@@ -42,6 +42,11 @@ export const frontSkill = [
         porcent: "75%",
         type: "front"
     },
+    {
+        name: "TailwindCss",
+        porcent: "70%",
+        type: "front"
+    },
 
 
 ]
@@ -60,6 +65,11 @@ export const softSkill = [
     {
         name: "Pontualidade",
         porcent: "88%",
+        type: "soft"
+    },
+    {
+        name: "Controle Emocional",
+        porcent: "85%",
         type: "soft"
     },
 
@@ -96,7 +106,8 @@ export const dataProjetos = [
         description: 'Simulador de bateria desenvolvido em Javascript durante o curso da B7Web',
         src: bateria,
         type: 'Javascript',
-        icons: [html, css, javascript]
+        icons: [javascript, html, css, ],
+        link: 'https://github.com/CamilodeAssis/bateria-js'
         
 
     },
@@ -105,7 +116,8 @@ export const dataProjetos = [
         description: 'Calculadora desenvolvida em Javascript',
         src: calculadora,
         type: 'Javascript',
-        icons: [html, css, javascript]
+        icons: [javascript, html, css, ],
+        link: 'https://github.com/CamilodeAssis/calculadora-js'
 
     },
     {
@@ -113,7 +125,8 @@ export const dataProjetos = [
         description: 'Loja de roupas desenvolvida em Javascript',
         src: lojaroupa,
         type: 'Javascript',
-        icons: [html, css, javascript]
+        icons: [javascript, html, css, ],
+        link: 'https://github.com/CamilodeAssis/Projeto-loja-com-carrinho-de-compras-Javascript-'
 
     },
     {
@@ -121,15 +134,17 @@ export const dataProjetos = [
         description: 'Simulador da urna eletrônica desenvolvida em Javascript',
         src: urna,
         type: 'Javascript',
-        icons: [html, css, javascript]
+        icons: [javascript, html, css, ],
+        link: 'https://github.com/CamilodeAssis/urna-eletronica-js'
 
     },
     {
-        name: 'Reolôgio analógico  Javascript',
-        description: 'Reolôgio analógico desenvolvido em Javascript',
+        name: 'Relógio analógico  Javascript',
+        description: 'Relógio analógico desenvolvido em Javascript',
         src: watch,
         type: 'Javascript',
-        icons: [html, css, javascript]
+        icons: [javascript, html, css, ],
+        link: 'https://github.com/CamilodeAssis/relogio-js'
 
     },
     {
@@ -145,8 +160,9 @@ export const dataProjetos = [
         name: 'Lista de taferas ReactJs',
         description: 'Lista de tarefas do dia a dia desenvolida em ReactJs + Typescript',
         src: todolist,
-        type: 'Firebase',
-        icons: [react, typescript, tailwind, firebase] 
+        type: 'ReactJs',
+        icons: [react, typescript, tailwind, firebase] ,
+        link: 'https://github.com/CamilodeAssis/To-do-list'
 
     },
     {
@@ -154,7 +170,8 @@ export const dataProjetos = [
         description: 'Jogo da memória desenvolido em ReactJs + Typescript',
         src: memorygame,
         type: 'ReactJs',
-        icons: [react, typescript, tailwind] 
+        icons: [react, typescript, tailwind] ,
+        link: 'https://github.com/CamilodeAssis/game-react-ts'
 
     },
 ]

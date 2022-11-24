@@ -35,7 +35,7 @@ module.exports = {
       'black': '#000000',
 
       'green': '#37CFA2',
-      'green-hover': '#1d5746',
+      'green-hover': '#13f0ae',
 
       'white': '#FFFFFF'
     },

@@ -37,7 +37,7 @@ export const MenuHeader = () => {
     }
 
     return (
-        <div className=' flex fixed justify-between  items-center  sm:h-auto h-16 sm:pb-3 sm:pt-3 bg-gray-700 w-full ' >
+        <div className=' flex fixed justify-between  items-center  sm:h-auto h-16 sm:pb-3 sm:pt-3 bg-gray-700 w-full shadow-md ' >
 
             <Link to="home" smooth={true} offset={-200} duration={500}>
                 <div className=' sm:ml-7 ml-2 flex flex-col justify-center items-center '>
@@ -117,14 +117,14 @@ export const MenuHeader = () => {
                         } inline-block h-4 w-4 transform rounded-full bg-white transition`}
                 />
             </Switch>
-            <Menu as="div" className='relative sm:hidden flex justify-center items-center mr-2 bg-green rounded  font-bold text-black p-1 w-24 sm:w-auto  text-lg text-bold'>
+            <Menu as="div" className='relative sm:hidden flex justify-center items-center mr-2 bg-green rounded  font-bold text-black p-1 w-24 sm:w-auto  text-lg text-bold '>
 
                 <Menu.Button
                     className=' flex justify-center items-center w-full text-lg '
                 >Menu
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path></svg>
                 </Menu.Button>
-                <Menu.Items className='origin-top-right absolute right-0 mt-[220px] w-40  text-black bg-green text-lg  rounded'>
+                <Menu.Items className='origin-top-right absolute right-0 mt-[220px] w-40  text-black bg-green text-lg  rounded shadow'>
                     <div className=' py-1 flex flex-col justify-center items-center cursor-pointer' >
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="home" smooth={true} offset={-200} duration={500}>Home</Link>
                         <Link className='hover:bg-black hover:text-white  block w-full text-center' to="sobre" smooth={true} offset={0} duration={500}>Sobre</Link>

@@ -54,7 +54,7 @@ export const ProjetoCard = () => {
                     {projetos && projetos.map((item, index) => {
                         return (
                             <a href={item.link} target={"_blank"}>
-                                <div key={index} className="flex flex-col md:w-[600px]  w-[200px] flex-none  bg-gray-400 border dark:border-green rounded mr-2">
+                                <div key={index} className="flex flex-col md:w-[600px]  w-[200px] flex-none  bg-gray-400 border dark:border-green rounded mr-2 shadow-md dark:shadow-gray-700">
 
                                     <div className=''>
                                         <img className="w-full h-full object-cover rounded" src={item.src} alt="" />
@@ -80,8 +80,8 @@ export const ProjetoCard = () => {
                 </div>
                 <div className="cursor-pointer w-full mt-10 flex items-center justify-center ">
                     <span className='dark:text-white font-bold'>Anterior</span>
-                    <button onClick={handleLeftClick}>
-                        <svg className="w-12 h-12 sm:w-14 sm:h-14 " fill="black" stroke="#37CFA2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M15 19l-7-7 7-7"></path></svg>
+                    <button className='' onClick={handleLeftClick}>
+                        <svg className="w-12 h-12 sm:w-14 sm:h-14 sm:mr-20 " fill="black" stroke="#37CFA2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M15 19l-7-7 7-7"></path></svg>
                     </button>
                     <button onClick={handleRightClick}>
                         <svg className="w-12 h-12 sm:w-14 sm:h-14" fill="black" stroke="#37CFA2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M9 5l7 7-7 7"></path></svg>

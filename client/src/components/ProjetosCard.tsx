@@ -62,7 +62,7 @@ export const ProjetoCard = () => {
 
                                     <div className="flex flex-col h-36 justify-between dark:bg-green bg-white items-center rounded-b text-black p-2 text-center">
                                         <span className='font-bold text-sm sm:text-lg ' >{item.name}</span>
-                                        <span className='font-semibold text-xs sm:text-sm text-white'>{item.description}</span>
+                                        <span className='font-semibold text-xs sm:text-sm dark:text-white'>{item.description}</span>
                                         <div className="flex gap-2">
                                             <img src={item.icons[0]} alt="" className='w-5 h-5 sm:w-10 sm:h-10' />
                                             <img src={item.icons[1]} alt="" className='w-5 h-5 sm:w-10 sm:h-10' />

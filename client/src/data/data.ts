@@ -64,7 +64,7 @@ export const softSkill = [
     },
     {
         name: "Pontualidade",
-        porcent: "88%",
+        porcent: "100%",
         type: "soft"
     },
     {

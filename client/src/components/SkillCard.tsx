@@ -20,7 +20,7 @@ export const SkillCard = ({ icon, title, data, }: Props) => {
             <Menu>
                 <Menu.Button className="flex justify-center gap-2 items-center bg-green hover:bg-green-hover rounded p-1 w-72 shadow shadow-gray-400 dark:shadow-gray-700  " onClick={() => setIsShown(!isShown)}>
                     <img src={icon} className="w-9 h-9 " alt="Backend" />
-                    <span className='font-bold text-xl '>{title}</span>
+                    <span className='font-bold text-xl text-white'>{title}</span>
                     <svg className="w-4 h-4 ml-1" fill="none" stroke="black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M19 9l-7 7-7-7"></path></svg>
                 </Menu.Button>
                 <Menu.Items className='border dark:border-green rounded h-auto mt-3 shadow shadow-gray-400 dark:shadow-gray-700'>

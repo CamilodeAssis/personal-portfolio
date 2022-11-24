@@ -84,6 +84,7 @@ import memorygame from '../assets/images/projetos/memorygame.png';
 import todolist from '../assets/images/projetos/todolist.png';
 import urna from '../assets/images/projetos/urna.png';
 import watch from '../assets/images/projetos/watch.png';
+import portfolio from '../assets/images/projetos/portfolio.png'
 
 
 
@@ -101,6 +102,16 @@ import github from '../assets/images/svg/github.svg';
 
 
 export const dataProjetos = [
+    {
+        name: 'Meu portfólio pessoal',
+        description: 'Portfólio pessoal desenvolvido usando meus conhecimentos em ReactJs, Typescript, TailwindCSS',
+        src: portfolio,
+        type: 'ReactJs',
+        icons: [react, typescript, tailwind],
+        link: 'https://github.com/CamilodeAssis/personal-portfolio'
+        
+
+    },
     {
         name: 'Bateria Javascript',
         description: 'Simulador de bateria desenvolvido em Javascript durante o curso da B7Web',

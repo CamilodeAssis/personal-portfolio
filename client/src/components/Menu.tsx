@@ -70,19 +70,19 @@ export const MenuHeader = () => {
 
             {/* MODAL DE CONTATO */}
             <div className='modal transition-all duration-500 h-screen w-full fixed left-0 top-0 hidden  justify-center items-center bg-black bg-opacity-70'>
-                <div className='dark:bg-green bg-gray-100 rounded shadow-lg sm:w-1/3 w-full   m-2'>
-                    <div className='border-b px-4 py-2 '>
+                <div className='bg-white  rounded shadow-lg sm:w-1/3 w-full  h-[240px] m-2 flex flex-col justify-between'>
+                    <div className='  bg-green rounded-t px-4 py-2 '>
                         <h1 className='text-2xl font-bold'>Contato</h1>
                     </div>
                     <div className='p-3 flex flex-col mt-2'>
 
-                        <div >
-                            <h2></h2>
-                            <div className="flex  items-center gap-1 font-bold  text-lg  ">
+                        <div className=' flex flex-col items-center ' >
+                            
+                            <div className="flex justify-center items-center gap-1 font-bold  text-lg  ">
                                 <AiOutlineMail className='h-6 w-6' />
                                 <span>camilo.assis10@gmail.com</span>
                             </div>
-                            <div className="flex items-center gap-1 font-bold  text-lg ">
+                            <div className="flex justify-center items-center gap-1 font-bold  text-lg ">
                                 < AiOutlinePhone className='h-6 w-6' />
                                 <span>+55 (41) 98732-3946 </span>
                             </div>
@@ -90,8 +90,8 @@ export const MenuHeader = () => {
                         </div>
 
                     </div>
-                    <div className='p-1 flex justify-between items-center border-t'>
-                        <div className='flex'>
+                    <div className='p-2 flex justify-between items-center  bg-green rounded-b'>
+                        <div className='flex '>
                             <a href="https://www.linkedin.com/in/camilodeassis/" target={"_blank"}><AiOutlineLinkedin className='w-6 h-6' /></a>
                             <a href="https://github.com/CamilodeAssis" target={"_blank"}><AiOutlineGithub className='w-6 h-6' /></a>
                             <a href="https://www.instagram.com/camilokotecki/" target={"_blank"}><AiOutlineInstagram className='w-6 h-6' /></a>

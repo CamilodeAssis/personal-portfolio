@@ -12,7 +12,7 @@ export const Sobre = () => {
             </div>
             
                 <div className="flex flex-col lg:flex-row  w-auto lg:w-[931px] items-center">
-                    <p className="flex-1 dark:text-white text-center sm:mr-8 text-sm sm:text-base ">Sou Desenvolvedor Full Stack em formação, a mais de 07 meses focado em estudar as principais técnologias que compõem o desenvolvimento web como por exemplo: HTML & CSS, Javascript, ReactJs, Typescript e NodeJs. <br /><br />
+                    <p className="flex-1 dark:text-white text-center sm:mr-8 text-sm sm:text-base ">Sou Desenvolvedor Full Stack em formação, a mais de 09 meses focado em estudar as principais técnologias que compõem o desenvolvimento web como por exemplo: HTML & CSS, Javascript, ReactJs, Typescript e NodeJs. <br /><br />
                         Me considero uma pessoa muito focada e comprometida, sempre entregando meu 100% para cumprir prazos ou desbravar novos desafios. No momento estou totalmente focado em adquirir habilidades e experiencia para ingressar no mundo de desenvolvimento de software, seja no Backend ou Frontend.</p>
                     <img className=" w-48 h-60 rounded-[2rem] mt-8 border dark:border-green shadow-md shadow-gray-400 dark:shadow-gray-900" src={img} alt="Camilo de Assis" />
 
